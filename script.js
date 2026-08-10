@@ -2,17 +2,23 @@ const translations = {
   en: {
     skip: "Skip to content",
     navAbout: "About",
+    navEducation: "Education",
     navResearch: "Research",
     navPublications: "Publications",
     position: "Postdoctoral Researcher",
     location: "Madrid, Spain",
     aboutTitle: "About Me",
+    aboutWelcome: "Welcome to my page!",
     aboutOne:
-      "I am a theoretical physicist working at the intersection of condensed matter, quantum information, and mesoscopic transport. I am currently a postdoctoral researcher in the Quantum Materials for Quantum Technologies (Q4Q) group at ICMM-CSIC, working with José Carlos Abadillo-Uriel.",
+      "My research focuses on the theoretical study of mesoscopic physics and its mathematical foundations. I am especially interested in rapidly advancing platforms, including solid-state devices for quantum computation, topological insulators, and other emerging quantum systems.",
     aboutTwo:
-      "My research focuses on hole-spin qubits and their integration with mesoscopic devices, including electrical control, decoherence, noise, and readout. I also study quantum sensing of axion-like particles and mathematical aspects of nonequilibrium quantum systems.",
+      "Recent experimental progress has made it possible to test increasingly sophisticated theoretical frameworks. This development aligns closely with my interests in full counting statistics, noise, and nonequilibrium many-body systems—areas that also open rich directions in mathematical physics.",
     aboutThree:
-      "Before joining ICMM-CSIC, I completed my bachelor's and PhD training at UNSW Sydney under the supervision of Dimitrie Culcer, where I worked on quantum spin Hall transport and hole-spin qubit coherence.",
+      "I am currently a postdoctoral researcher in the group led by José Carlos Abadillo-Uriel, a passionate and insightful theorist, at ICMM-CSIC. Previously, I completed my Ph.D. under the supervision of Dimitrie Culcer at UNSW Sydney; his intellectual guidance and thoughtful supervision have had a lasting influence on my research. I am deeply grateful to both mentors for their support and encouragement throughout my academic journey.",
+    educationTitle: "Education",
+    phdTitle: "Ph.D. in Theoretical Condensed Matter Physics",
+    bscTitle: "B.Sc. (Class A Honours)",
+    educationInstitution: "University of New South Wales",
     researchTitle: "Research Interests",
     researchOneTitle: "Solid-State Quantum Information",
     researchOneText:
@@ -30,17 +36,23 @@ const translations = {
   zh: {
     skip: "跳转到正文",
     navAbout: "简介",
+    navEducation: "教育",
     navResearch: "研究",
     navPublications: "论文",
     position: "博士后研究员",
     location: "西班牙，马德里",
     aboutTitle: "个人简介",
+    aboutWelcome: "欢迎访问我的个人主页！",
     aboutOne:
-      "我是一名理论物理学家，研究方向位于凝聚态物理、量子信息与介观输运的交叉领域。现为 ICMM-CSIC 量子技术量子材料组（Q4Q）博士后研究员，与 José Carlos Abadillo-Uriel 合作。",
+      "我的研究聚焦于介观物理的理论研究及其数学基础。我尤其关注快速发展的量子平台，包括用于量子计算的固态器件、拓扑绝缘体及其他新型量子系统。",
     aboutTwo:
-      "我的研究聚焦于空穴自旋量子比特及其与介观器件的集成，包括电学操控、退相干、噪声与读出。我也研究利用半导体自旋量子比特探测类轴子粒子，以及非平衡量子系统中的数学物理问题。",
+      "近年来，实验技术的进步使人们能够检验日益精细的理论框架。这与我对全计数统计、噪声以及非平衡多体系统的研究兴趣紧密相连；这些问题也在数学物理中展现出丰富的发展空间。",
     aboutThree:
-      "加入 ICMM-CSIC 之前，我在新南威尔士大学完成本科和博士训练，师从 Dimitrie Culcer 教授，研究量子自旋霍尔输运与空穴自旋量子比特相干性。",
+      "我目前在 ICMM-CSIC José Carlos Abadillo-Uriel 领导的研究组担任博士后研究员。他是一位充满热情且富有洞见的理论物理学家。在此之前，我在新南威尔士大学 Dimitrie Culcer 教授指导下完成博士训练；他的深刻见解与悉心指导对我的研究成长影响深远。我非常感谢两位导师在我的学术道路上给予的支持与鼓励。",
+    educationTitle: "教育经历",
+    phdTitle: "理论凝聚态物理博士",
+    bscTitle: "理学学士（A 类荣誉）",
+    educationInstitution: "新南威尔士大学",
     researchTitle: "研究方向",
     researchOneTitle: "固态量子信息",
     researchOneText: "研究半导体器件中的自旋量子比特、电学操控、相干性、噪声、读出与量子传感。",

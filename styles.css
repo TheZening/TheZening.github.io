@@ -263,6 +263,18 @@ h2 {
   font-size: 13px;
 }
 
+.publication-category {
+  margin-top: 34px;
+}
+
+.publication-category h3 {
+  margin: 0 0 4px;
+  color: var(--accent);
+  font-size: 17px;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
 .publication-list {
   margin: 0;
   padding: 0;

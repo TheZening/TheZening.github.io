@@ -156,12 +156,16 @@ nav a {
   letter-spacing: -0.02em;
 }
 
-.profile h1 span {
-  display: block;
+.profile h1 .chinese-name {
+  display: none;
   margin-top: 5px;
   color: var(--muted);
   font-size: 16px;
   font-weight: 500;
+}
+
+html[lang="zh-CN"] .profile h1 .chinese-name {
+  display: block;
 }
 
 .position {

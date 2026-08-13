@@ -14,7 +14,7 @@ const translations = {
     aboutTwo:
       "Recent experimental progress has made it possible to test increasingly sophisticated theoretical frameworks. This development aligns closely with my interests in full counting statistics, noise, and nonequilibrium many-body systems—areas that also open rich directions in mathematical physics.",
     aboutThree:
-      "I am currently a postdoctoral researcher in the group led by José Carlos Abadillo-Uriel, a passionate and insightful theorist, at ICMM-CSIC. Previously, I completed my Ph.D. under the supervision of Dimitrie Culcer at UNSW Sydney; his intellectual guidance and thoughtful supervision have had a lasting influence on my research. I am deeply grateful to both mentors for their support and encouragement throughout my academic journey.",
+      'I am currently a postdoctoral researcher in the group led by <a href="https://wp.icmm.csic.es/tqe/people/jose-carlos-abadillo-uriel/" target="_blank" rel="noreferrer">José Carlos Abadillo-Uriel</a>, a passionate and insightful theorist, at ICMM-CSIC. Previously, I completed my Ph.D. under the supervision of <a href="https://www.unsw.edu.au/staff/dimi-culcer" target="_blank" rel="noreferrer">Dimitrie Culcer</a> at UNSW Sydney; his intellectual guidance and thoughtful supervision have had a lasting influence on my research. I am deeply grateful to both mentors for their support and encouragement throughout my academic journey.',
     educationTitle: "Education",
     phdTitle: "Ph.D. in Theoretical Condensed Matter Physics",
     bscTitle: "B.Sc. (Class A Honours)",
@@ -69,6 +69,7 @@ const translations = {
 
 const languageButton = document.querySelector("#language-toggle");
 const translationNodes = document.querySelectorAll("[data-i18n]");
+const translationHtmlNodes = document.querySelectorAll("[data-i18n-html]");
 
 function setLanguage(language) {
   const dictionary = translations[language];
@@ -78,6 +79,14 @@ function setLanguage(language) {
     const translated = dictionary[node.dataset.i18n];
     if (typeof translated === "string") {
       node.textContent = translated;
+      node.hidden = translated.length === 0;
+    }
+  });
+
+  translationHtmlNodes.forEach((node) => {
+    const translated = dictionary[node.dataset.i18nHtml];
+    if (typeof translated === "string") {
+      node.innerHTML = translated;
       node.hidden = translated.length === 0;
     }
   });

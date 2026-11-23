@@ -37,7 +37,7 @@ const translations = {
     categoryQuantumSensing: "Quantum Sensing",
     categoryQuantumTransport: "Quantum Transport & Topological Materials",
     scholarLink: "Google Scholar profile ↗",
-    footer: "Academic website · Last updated August 2026",
+    footer: "Academic website · Last updated November 2026",
   },
   zh: {
     skip: "跳转到正文",
@@ -74,7 +74,7 @@ const translations = {
     categoryQuantumSensing: "量子传感",
     categoryQuantumTransport: "量子输运与拓扑材料",
     scholarLink: "谷歌学术主页 ↗",
-    footer: "个人学术主页 · 2026 年 8 月更新",
+    footer: "个人学术主页 · 2026 年 11 月更新",
   },
 };
 
